@@ -1,0 +1,15 @@
+The queries for given assignments of SELECT module are:
+
+Assignment 1:- 	DESCRIBE departments;
+
+Assignment 2:- 	SELECT employee_id,last_name,job_id,hire_date startdate 
+		FROM employees;
+
+Assignment 3:- 	SELECT DISTINCT job_id 
+		FROM employees;
+
+Assignment 4:- 	SELECT employee_id "EMP #",last_name "Employee",job_id "Job",hire_date "Hire Date" 
+		FROM employees;
+
+Assignment 5:- 	SELECT last_name || ', ' || job_id AS "Employee and Title" 
+		FROM employees;
