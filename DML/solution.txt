@@ -1,0 +1,56 @@
+The queries for assignments of DML module are:
+
+Assignment 1:- 	CREATE TABLE MY_EMPLOYEE AS 
+		(SELECT employee_id,first_name,last_name,department_id,salary 
+		FROM employees
+		WHERE 1=2);
+
+Assignment 2:- 	DESCRIBE my_employee;
+
+
+Assignment 3:- 	INSERT INTO my_employee 
+		VALUES(201,'Michael','Hartstein',20,13000);
+
+		SELECT * FROM my_employee;
+
+
+Assignment 4:- 	INSERT INTO my_employee 
+		VALUES(202,'Pat','Fay',20,NULL);
+
+		SELECT * FROM my_employee;
+
+
+Assignment 5:- 	INSERT INTO my_employee(employee_id,first_name,last_name,department_id) 
+		VALUES (203,'Susan','Mavris',40);
+
+		SELECT * FROM my_employee;
+
+
+Assignment 6:-  INSERT INTO my_employee VALUES(205,'Shelley','Higgins',110,12000);
+
+		INSERT INTO my_employee VALUES(100,'Steven','King',90,24000);
+
+		INSERT INTO my_employee VALUES(101,'Neena','Kochhar',90,17000);
+
+		INSERT INTO my_employee VALUES(102,'Lex De','Haan',90,17000);
+
+		INSERT INTO my_employee VALUES(111,'Ismael','Sciarra',100,7700);
+
+		INSERT INTO my_employee VALUES(112,'Jose Manuel','Urman',100,7800);
+
+		INSERT INTO my_employee VALUES(204,'Hermann','Baer',70,10000);
+
+		SELECT * FROM my_employee;
+
+
+Assignment 7:-  UPDATE my_employee SET salary=salary+salary*.10 
+		WHERE department_id=90;
+
+
+Assignment 8:-  UPDATE my_employee SET last_name='Higgins'
+		WHERE employee_id=202;
+
+
+Assignment 9:-  DELETE FROM my_employee 
+		WHERE first_name LIKE '%man%' OR last_name LIKE '%man%';
+
